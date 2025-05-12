@@ -55,6 +55,11 @@ A aplicação estará acessível em:
 - HTTP: http://localhost:8181
 - WebSocket: ws://localhost:8181
 
+### Headers Exemplo
+```json
+x-forwarded-for: 8.8.8.8
+```
+
 ### 📡 Exemplo de resposta via WebSocket
 
 ```json
