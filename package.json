@@ -1,0 +1,21 @@
+{
+  "name": "geolocation-by-ip",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "maxmind": "^4.3.25",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/ws": "^8.18.1",
+    "concurrently": "^9.1.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: geolocation-by-ip
+    ports:
+      - "8181:8181"
+    restart: unless-stopped
